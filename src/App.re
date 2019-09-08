@@ -11,10 +11,6 @@ type action =
   | Check(string)
   | Delete(string);
 
-/* toString = ReasonReact.stringToElement */
-
-/* todoId = use Uuid.V4.uuidv4() instead */
-
 let newTodo = text => {
   let todoId = Uuid.V4.uuidv4();
   {id: todoId, completed: false, text};

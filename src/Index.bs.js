@@ -3,10 +3,10 @@
 
 var React = require("react");
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
-var App$ReactHooksTemplate = require("./App.bs.js");
+var App$ReasonTodo = require("./App.bs.js");
 
 ((require('./index.css')));
 
-ReactDOMRe.renderToElementWithId(React.createElement(App$ReactHooksTemplate.make, { }), "root");
+ReactDOMRe.renderToElementWithId(React.createElement(App$ReasonTodo.make, { }), "root");
 
 /*  Not a pure module */
